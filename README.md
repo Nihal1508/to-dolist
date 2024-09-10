@@ -38,4 +38,4 @@ A simple application to manage todos with basic authentication and GitHub Gist e
     npm run dev
     ```
 
-6. Open your browser and go to `http://localhost:5000`.
+6. Open your browser and go to `http://localhost:5000`.(if not working then run the login.html file and start from there.)
