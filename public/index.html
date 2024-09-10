@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo Manager</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div id="app">
+    <h1>Todo Manager</h1>
+
+    <!-- Section for Creating a New Project -->
+    <div id="new-project">
+      <h2>Create New Project</h2>
+      <input type="text" id="project-title" placeholder="Enter project title">
+      <button id="create-project">Create Project</button>
+    </div>
+
+    <!-- Section for Listing Projects -->
+    <div id="project-list">
+      <h2>Projects</h2>
+      <ul id="projects">
+        <!-- Project items will be dynamically populated here -->
+      </ul>
+    </div>
+
+    <!-- Section for Managing Todos of a Selected Project -->
+    <div id="project-details" style="display:none;">
+      <h2 id="project-name">Project: </h2>
+      <div id="todo-manager">
+        <input type="text" id="todo-description" placeholder="Add a new todo">
+        <button id="add-todo">Add Todo</button>
+      </div>
+      <h3>Todos</h3>
+      <ul id="todo-list">
+        <!-- Todo items will be dynamically populated here -->
+      </ul>
+      <button id="export-gist">Export as Gist</button>
+    </div>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>
